@@ -11,6 +11,6 @@ public class Main {
         // one way of accessing other classes' methods
         pc.getMonitor().drawPixelAt(50, 20, "blue");
         pc.getMotherboard().loadProgram("Windows");
-        pc.getTheCase().pressPowerButton();
+        pc.powerUp();
     }
 }
