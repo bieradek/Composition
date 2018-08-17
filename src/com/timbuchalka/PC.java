@@ -13,6 +13,11 @@ public class PC {
 
     public void powerUp() {
         getTheCase().pressPowerButton();
+        drawLogo();
+    }
+
+    private void drawLogo() {
+        getMonitor().drawPixelAt(50, 100, "Blue");
     }
 
     private Case getTheCase() {
